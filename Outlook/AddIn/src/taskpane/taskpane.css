@@ -1,0 +1,243 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 0px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 1.8em;
+    color: #5b3886;
+    margin: 0;
+}
+
+/* Section Sites Favoris */
+#favorite-sites {
+    margin-bottom: 20px;
+}
+
+#favorite-sites h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #5b3886;
+    padding-bottom: 5px;
+    color: #5b3886;
+}
+
+#favorite-sites ul {
+    list-style: none;
+    padding: 0;
+}
+
+#favorite-sites li {
+    margin: 10px 0;
+}
+
+#favorite-sites a {
+    color: #5b3886;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#favorite-sites a:hover {
+    text-decoration: underline;
+}
+
+/* Section Contacts Récents */
+#recent-contacts {
+    margin-bottom: 20px;
+}
+
+#recent-contacts h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #5b3886;
+    padding-bottom: 5px;
+    color: #5b3886;
+}
+
+#contactList {
+    list-style: none;
+    padding: 0;
+}
+
+#contactList li {
+    margin: 10px 0;
+}
+
+#contactList a {
+    color: #5b3886;
+    text-decoration: none;
+}
+
+#contactList a:hover {
+    text-decoration: underline;
+}
+
+/* Section Formulaire d'Email */
+#send-email-form {
+    margin-bottom: 20px;
+}
+
+#send-email-form h3 {
+    font-size: 1.5em;
+    color: #5b3886;
+}
+
+#send-email-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#send-email-form input,
+#send-email-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-email-form button {
+    background-color: #5b3886;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+#send-email-form button:hover {
+    background-color: #8652c6;
+}
+
+/* Section Prévisualisation */
+#email-preview {
+    margin-bottom: 20px;
+}
+
+#email-preview h2 {
+    font-size: 1.5em;
+    color: #5b3886;
+}
+
+#previewContent {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#previewButton {
+    background-color: #5b3886;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#previewButton:hover {
+    background-color: #8652c6;
+}
+
+/* Section Actions Rapides */
+#quick-actions {
+    margin-bottom: 20px;
+}
+
+#quick-actions h2 {
+    font-size: 1.5em;
+    color: #5b3886;
+}
+
+#quick-actions button {
+    background-color: #5b3886;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+#quick-actions button:hover {
+    background-color: #8652c6;
+}
+
+/* Section Sauvegarder en Brouillon */
+#save-draft {
+    margin-bottom: 20px;
+}
+
+#saveDraftButton {
+    background-color: #5b3886;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#saveDraftButton:hover {
+    background-color: #8652c6;
+}
+
+/* Section Priorité de l'Email */
+#email-priority {
+    margin-bottom: 20px;
+}
+
+#email-priority label {
+    font-weight: bold;
+}
+
+#prioritySelect {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Section Message d'absence */
+#out-of-office {
+    margin-bottom: 20px;
+}
+
+#setOutOfOfficeButton {
+    background-color: #5b3886;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#setOutOfOfficeButton:hover {
+    background-color: #8652c6;
+}

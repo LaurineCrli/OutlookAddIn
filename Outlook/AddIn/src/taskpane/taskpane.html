@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon Add-In Outlook</title>
+
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="taskpane.js"></script>
+</head>
+<body class="ms-font-m ms-welcome ms-Fabric">
+    <div class="container">
+        <header>
+            <h1>Mon Add-In Outlook</h1>
+        </header>
+        
+        <main>
+            <!-- Section: Sites Favoris -->
+            <section id="favorite-sites">
+                <h2>Sites Favoris</h2>
+                <ul>
+                    <li><a href="https://www.microsoft.com" target="_blank">Microsoft</a></li>
+                    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                    <li><a href="https://www.nsi.lu" target="_blank">NSI</a></li>
+                </ul>
+            </section>
+
+            <!-- Section: Contacts Récents -->
+            <section id="recent-contacts">
+                <h2>Contacts récents</h2>
+                <ul id="contactList">
+                    <li><a href="#">Contact 1</a></li>
+                    <li><a href="#">Contact 2</a></li>
+                    <li><a href="#">Contact 3</a></li>
+                </ul>
+            </section>
+
+            <!-- Section: Formulaire d'Email -->
+            <section id="send-email-form">
+                <h3>Envoyer un Email</h3>
+                <form id="emailForm">
+                    <label for="emailSubject">Sujet:</label>
+                    <input type="text" id="emailSubject" required>
+
+                    <label for="emailBody">Corps de l'email:</label>
+                    <textarea id="emailBody" required></textarea>
+
+                    <button type="submit">Envoyer l'email</button>
+                </form>
+            </section>
+
+            <!-- Section: Prévisualisation de l'Email -->
+            <section id="email-preview">
+                <h2>Prévisualisation</h2>
+                <div id="previewContent">
+                    <p>Le contenu de votre email s'affichera ici.</p>
+                </div>
+                <button id="previewButton">Voir la prévisualisation</button>
+            </section>
+
+            <!-- Section: Actions rapides -->
+            <section id="quick-actions">
+                <h2>Actions rapides</h2>
+                <button id="replyButton">Répondre</button>
+                <button id="forwardButton">Transférer</button>
+                <button id="markImportantButton">Marquer Important</button>
+            </section>
+
+            <!-- Section: Sauvegarder en brouillon -->
+            <section id="save-draft">
+                <button id="saveDraftButton">Sauvegarder en brouillon</button>
+            </section>
+
+            <!-- Section: Priorité de l'Email -->
+            <section id="email-priority">
+                <label for="prioritySelect">Priorité :</label>
+                <select id="prioritySelect">
+                    <option value="normal">Normale</option>
+                    <option value="high">Haute</option>
+                    <option value="low">Basse</option>
+                </select>
+            </section>
+
+            <!-- Section: Message d'absence -->
+            <section id="out-of-office">
+                <button id="setOutOfOfficeButton">Activer message d'absence</button>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
